@@ -1,0 +1,337 @@
+body {
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.backgroundimage {
+    background-image: url("https://p.w3layouts.com/demos/uipixels/web/images/header-banner.jpg");
+    min-height: 850px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: transparent;
+    border: none!important; 
+    opacity: 0.2;
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 0.5em 1em;
+    font-weight: 700;
+    word-spacing: 30px;
+    padding-top: 2.0em;
+}
+
+.navbar-inverse {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+}
+
+.navbar-toggle {
+    background-color: gray;
+}
+
+h3 {
+    font-weight:300;
+    font-size: 2.5em;
+    margin: 0.5em 0 0.1em 0;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight:300;
+}
+
+.header3 {
+    margin: 1em 0 1.5em 0;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+#custom {
+    font-weight:700;
+}
+
+#self {
+    border-radius: 50%;
+    width: 250px;
+    height: auto;
+}
+
+#center{
+    text-align: center;
+    padding-top: 10em;
+}
+
+
+#inline {
+    display : inline-block;
+}
+
+.icon:before {
+    color: lavender;
+    margin-right:15px;
+}
+
+ul {
+    font-size: 15px;
+    margin: 0 2em;
+    padding-right: 25px
+}
+
+ul.details li {
+    margin: 0 3em;
+    padding-top: 5em;
+}
+ul.details li {
+    font-weight: 400;
+    color: #fff;
+    font-size: 17px;
+    margin: 0 4em;
+    letter-spacing: 3px;
+}
+ul.details li {
+    display: inline-block;
+}
+
+/*---------------------------*/
+
+.aboutsection {
+    background-color: #524664;
+    padding: 4em 0;
+    min-height: 755px;
+}
+
+.about {
+    text-align: center;
+}
+
+hr {
+    width: 75px;
+}
+
+.aboutP {
+    color: #D0C6DB;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-top: 1.35em;
+    text-transform: uppercase;
+}
+
+.center6 {
+    position: relative;
+    height:auto;
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 20px;
+}
+
+.center6 h4 {
+    padding-bottom: 15px;
+}
+
+/*#customPadding {
+    margin-left: 80px;
+    margin-right: 80px;
+}*/
+
+
+/*--------About Section2 Experience---------------*/
+
+
+.aboutsection2 {
+    background-color:#F5F5F5;
+    padding: 4em 0;
+    min-height: 1000px;
+}
+
+.heading {
+    color: black;
+    border-bottom: 3.5px solid #E1E1E1;
+    width: 130px;
+    margin: 0 auto;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 1px #292929;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+  color: black;
+}
+
+.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #eeeeee;
+  left: 50%;
+  margin-left: -1.5px;
+}
+
+.timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #ccc;
+  border-right: 0 solid #ccc;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-color: #999999;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+
+.timeline-badge.primary {
+  background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+  background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+  background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+  background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+  background-color: #5bc0de !important;
+}
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+
+
+/*--------About Section3 LIFe---------------*/
+
+
+.aboutsection3 {
+    background-color:#FFD670;
+    padding: 4em 0;
+    min-height: 1000px;
+}
+
+.life {
+    color: white;
+}
+
+/*---------Contact Section ----------------*/
+
+#contact {
+    color: black;
+}
+
+
